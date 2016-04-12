@@ -1,0 +1,11 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        double w = double.Parse(Console.ReadLine());
+        double a = w * 17 / 100;
+        Console.WriteLine("{0:0.000}",a);
+    }
+}
