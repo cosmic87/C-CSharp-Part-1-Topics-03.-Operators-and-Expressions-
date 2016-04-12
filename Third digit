@@ -1,0 +1,12 @@
+using System;
+
+class asciiTable
+{
+    static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        int b = (n /100) % 10;
+        var c = b == 7 ? "true" : "false {0}";
+        Console.WriteLine(c, b); 
+    }
+}
