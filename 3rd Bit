@@ -1,0 +1,16 @@
+using System;
+
+public class ThirdBit
+{
+    public const int Position = 3;
+
+    public static void Main()
+    {
+        uint number = uint.Parse(Console.ReadLine());
+        uint mask = 1 << Position; 
+        uint numberAndMask = number & mask;
+        uint bit = numberAndMask >> Position;
+
+        Console.WriteLine(bit);
+    }
+}
